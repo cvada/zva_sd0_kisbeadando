@@ -28,7 +28,7 @@ source ~/ros2_ws/install/setup.bash
 ```
 </details>
 
-``` r
+```
 ros2 launch zva_sd0_kisbeadando launch_example1.launch.py
 ```
 
@@ -43,8 +43,8 @@ Let's assume
 
 Replace everything in the cloned repo:
 
-- `zva_sd0_kisbeadando` >> `zva_sd0_kisbeadando` (the folder was already renamed after `Use this template`)
-- `cvada` >> `cvada`
+- `zva_sd0_kisbeadando` >> `cool_ros2_package` (the folder was already renamed after `Use this template`)
+- `cvada` >> `mycoolname`
 - find all `todo` strings and fill the blanks
 
 The easiest way is VS code:
