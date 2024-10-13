@@ -28,8 +28,16 @@ source ~/ros2_ws/install/setup.bash
 ```
 </details>
 
-```
+``` r
 ros2 launch zva_sd0_kisbeadando launch_example1.launch.py
+```
+
+``` r
+ros2 run zva_sd0_kisbeadando gen_node 
+```
+
+``` r
+ros2 run zva_sd0_kisbeadando sum_node 
 ```
 
 ROS 2 pacage template, to get started, use template by clicking on the Green button labeled [`Use this template`](https://github.com/cvada/zva_sd0_kisbeadando/generate) / [`Create new repository`](https://github.com/cvada/zva_sd0_kisbeadando/generate). 
