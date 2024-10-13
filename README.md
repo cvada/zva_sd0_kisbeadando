@@ -59,4 +59,12 @@ The easiest way is VS code:
 
 <p align="center"><img src="img/replace01.png" width="60%" /></p>
 
+## Graph
+
+<p align="center"><img src="img/fgv.png" width="90%" /></p>
+
+<p align="center"><img src="img/mermaid1.png" width="90%" /></p>
+
+<p align="center"><img src="img/mermaid2.png" width="90%" /></p>
+
 Now `colcon build` your ROS 2 package and you can start wokring.
