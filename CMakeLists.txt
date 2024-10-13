@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(zva_sd0_kisbeadando)
+project(zva_sd0_beadando)
 
 # Default to C++14
 if(NOT CMAKE_CXX_STANDARD)
@@ -21,14 +21,17 @@ set(ament_dependencies
   geometry_msgs
 )
 
-# add_executable(simple_sub_node src/print_pose.cpp)
-# ament_target_dependencies(simple_sub_node ${ament_dependencies} )
+add_executable(gen_node src/gen.cpp)
+ament_target_dependencies(gen_node ${ament_dependencies} )
+add_executable(sum_node src/sum.cpp)
+ament_target_dependencies(sum_node ${ament_dependencies} )
 
 install(DIRECTORY launch
   DESTINATION share/${PROJECT_NAME})
 
 install(TARGETS
-# simple_sub_node
+ gen_node
+ sum_node
 DESTINATION lib/${PROJECT_NAME})
 
 ament_package()

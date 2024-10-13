@@ -3,8 +3,8 @@
 <package format="3">
   <name>zva_sd0_kisbeadando</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="todo@todo.com">TODO:</maintainer>
+  <description>Függvények</description>
+  <maintainer email="gfinfgin@gmail.com">gfinfgin@gmail.com</maintainer>
   <license>GNU General Public License v3.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
